@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #141212f6;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.about img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #ddd;
+    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.project {
+    background: #eee;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 10px;
+}
+.about img {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+header {
+    background-image: url("img/moto.jpg");
+    background-size: cover;  
+    background-position: center;
+    color: rgba(13, 68, 232, 0.886);
+    text-shadow: 2px 2px 5px black;
+    padding: 100px 20px;
+}
+
+    
